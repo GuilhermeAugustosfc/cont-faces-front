@@ -26,7 +26,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "https://cont-faces-api.onrender.com/detectar_rostos",
+        "http://localhost:8000/detectar_rostos",
         formData,
         {
           headers: {
